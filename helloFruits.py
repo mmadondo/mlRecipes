@@ -1,4 +1,5 @@
 from sklearn import tree
+import matplotlib.pyplot as plt
 #training data to classify fruits: orange vs apple
 
 # features: 1 = smooth and 0 = bumpy
