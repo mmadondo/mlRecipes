@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.datasets import load_iris
 from sklearn import tree
 import pydotplus
+import graphviz
 
 # COLLECT TRAINING DATA
 
@@ -23,8 +24,8 @@ clf.fit(train_data, train_target)
 
 # MAKE PREDICTIONS
 
-print(test_target) #expected outcome
-print(clf.predict(test_data)) #model predicted outcome
+print("Expected: ", test_target) #expected outcome
+print("Predicted:", clf.predict(test_data)) #model predicted outcome
 
 # VISUALISE THE TREE
 
