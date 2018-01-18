@@ -20,3 +20,5 @@ fig = plt.figure()
 ax = fig.gca(projection='3d')
 ax.plot(states[:,0], states[:,1], states[:,2])
 plt.show()
+
+#Source: https://en.wikipedia.org/wiki/Lorenz_system
