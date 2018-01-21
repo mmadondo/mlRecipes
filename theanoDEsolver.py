@@ -1,3 +1,5 @@
+#from https://stackoverflow.com/questions/32504728/how-do-i-use-theano-to-solve-an-ordinary-differential-equation
+
 import numpy
 import theano
 
