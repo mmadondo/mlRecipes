@@ -31,3 +31,11 @@ for i in range(1, len(t)):
 #save the solution
 np.savetxt('t.txt', t)
 np.savetxt('x.txt', x)
+
+'''
+Sources:
+1. http://connor-johnson.com/2014/02/21/numerical-solutions-to-odes/
+2. http://www.nervouscomputer.com/hfs/pdf/introtns/Getting-to-know-Python.pdf
+3. http://hplgit.github.io/prog4comp/doc/pub/p4c-sphinx-Python/._pylight005.html
+4. http://code.activestate.com/recipes/577647-ode-solver-using-euler-method/
+'''
