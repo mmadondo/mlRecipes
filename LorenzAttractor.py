@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 from mpl_toolkits.mplot3d import Axes3D
 
-rho = 26.0
-sigma = 10.0
+rho = 28.0
+sigma = 11.0
 beta = 8.0 / 3.0
 
 def f(state, t):
