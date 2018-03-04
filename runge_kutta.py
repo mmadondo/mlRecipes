@@ -1,6 +1,5 @@
 import math
 
-
 def exp(u, x):
     print('Enter value of degree of f(x) and degree of x')
     

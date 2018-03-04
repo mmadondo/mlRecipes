@@ -1,6 +1,8 @@
 '''
 Sources:
-https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/
+1. https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/
+2. http://adventuresinmachinelearning.com/recurrent-neural-networks-lstm-tutorial-tensorflow/
+3. 
 '''
 import copy, numpy as np
 np.random.seed(0)
