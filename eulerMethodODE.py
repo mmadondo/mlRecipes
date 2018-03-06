@@ -4,6 +4,7 @@ Created: Feb 20, 2018
 """
 from __future__ import division
 import numpy as np
+from matplotlib import pyplot as plt
 
 def f(x):
     return 1-x
@@ -28,10 +29,20 @@ x[0] = x0
 for i in range(1, len(t)):
     x[i] = x[i-1] + f(x[i-1])*dt
 
-#save the solution
+for i in range(len(t)):
+    print(x[i], t[i])
+    
+plt.plot(x, t, 'o')
+plt.xlabel("Value of x")
+plt.ylabel("Value of y")
+plt.title("Approximation Solution with Euler's Method")
+plt.show()
+
+'''
+save the solution
 np.savetxt('t.txt', t)
 np.savetxt('x.txt', x)
-
+'''
 '''
 Sources:
 1. http://connor-johnson.com/2014/02/21/numerical-solutions-to-odes/
