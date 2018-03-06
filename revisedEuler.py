@@ -14,3 +14,11 @@ for i in range(1, n):
 
 for i in range(n):
     print(x[i], y[i])
+    
+#graphing the solution now
+
+plt.plot(x, y, 'o')
+plt.xlabel("Value of x")
+plt.ylabel("Value of y")
+plt.title("Approximation Solution with Euler's Method")
+plt.show()
