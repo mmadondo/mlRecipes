@@ -6,7 +6,7 @@ xf = 2
 n = 101
 deltaX = (xf - x0)/(n-1)
 x = np.linspace(x0, xf, n)
-y = np.zeroes([n]) #array y with n entries
+y = np.zeros([n]) #array y with n entries
 y[0] = y0
 
 for i in range(1, n):
