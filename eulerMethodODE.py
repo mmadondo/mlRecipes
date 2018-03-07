@@ -1,6 +1,7 @@
 """
 Author: Malvern Madondo
 Created: Feb 20, 2018
+Updated: Mar 6, 2018
 """
 from __future__ import division
 import numpy as np
