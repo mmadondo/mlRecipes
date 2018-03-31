@@ -4,7 +4,7 @@ from scipy.integrate import odeint
 from mpl_toolkits.mplot3d import Axes3D
 
 rho = 28.0
-sigma = 11.0
+sigma = 10.0
 beta = 8.0 / 3.0
 
 def f(state, t):
@@ -19,6 +19,10 @@ states = odeint(f, state0, t)
 fig = plt.figure()
 ax = fig.gca(projection='3d')
 ax.plot(states[:,0], states[:,1], states[:,2])
+ax.set_title('The Lorenz Attractor')
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.set_zlabel('z')
 plt.show()
 
 #Source: https://en.wikipedia.org/wiki/Lorenz_system
